@@ -17,7 +17,7 @@ export const StateContextProvider = ({ children }) => {
         'x-user-agent': 'desktop',
         'x-proxy-location': 'US',
         'x-rapidapi-host': 'google-search3.p.rapidapi.com',
-        'x-rapidapi-key': 'd5bbb77f64mshaf3aec8bc70db9ep13ee0cjsn40407641883c'
+        'x-rapidapi-key': process.env.REACT_APP_API_KEY,
       },
     });
 
